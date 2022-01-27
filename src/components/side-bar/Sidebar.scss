@@ -1,0 +1,22 @@
+.sidebar-container {
+  width: 20%;
+  background-color: darkslategray;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 20px;
+
+  .logo-container {
+    height: 100px;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .list-item {
+    height: 70px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+  }
+}
