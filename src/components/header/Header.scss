@@ -1,0 +1,25 @@
+.header {
+  height: 40px;
+  background-color: rgb(212, 190, 190);
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+
+  .signin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 100px;
+    color: rgb(219, 103, 103);
+    margin: auto 50px;
+    background-color: white;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    &:hover {
+      background-color: rgb(219, 103, 103);
+      color: white;
+    }
+  }
+}

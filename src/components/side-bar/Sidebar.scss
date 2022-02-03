@@ -1,11 +1,13 @@
 .sidebar-container {
   width: 20%;
-  background-color: darkslategray;
+  min-width: 190px;
+  background-color: rgb(31, 46, 46);
   height: 100vh;
   display: flex;
   flex-direction: column;
   color: white;
   padding: 20px;
+  // position: fixed;
 
   .logo-container {
     height: 100px;

@@ -10,7 +10,7 @@ return (
         <div className='logo-container'>Workout-Tracker</div>
 
         <Link className='list-item' to='/exercises'>Exercises</Link>
-        <li className='list-item'>workouts</li>
+        <Link className="list-item" to='/routines'>Routines</Link>
         <li className='list-item'>routines</li>
         <li className='list-item'>dashboard</li>
         <li className='list-item'>nutrition</li>

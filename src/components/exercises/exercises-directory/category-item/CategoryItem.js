@@ -8,7 +8,7 @@ const CategoryItem = ({category})=>{
     const navigate = useNavigate()
     
     return(
-    <div className="category" onClick={()=>navigate(category)}>
+    <div className="category-container" onClick={()=>navigate(category)}>
         <h3>{category.toUpperCase()}</h3>
     </div>
 )}

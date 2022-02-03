@@ -1,0 +1,15 @@
+.exercise-container {
+  .exercise {
+    font-size: 1.2rem;
+    border-bottom: 0.5px solid gray;
+    box-shadow: 0 0 0 0.5px gray;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+    line-height: 1.25rem;
+
+    &:hover {
+      font-size: 1.25rem;
+    }
+  }
+}

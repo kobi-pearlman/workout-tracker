@@ -1,0 +1,19 @@
+.routine-element {
+  box-shadow: 1px 1px 1px 1px gray;
+  background-color: rgb(212, 190, 190);
+  border-radius: 10px;
+  width: 200px;
+  position: relative;
+
+  .title {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0 10px;
+  }
+  .remove-routine-btn {
+    position: absolute;
+    right: 5px;
+    top: 2px;
+    cursor: pointer;
+  }
+}

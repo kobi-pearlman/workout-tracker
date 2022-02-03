@@ -1,0 +1,12 @@
+.routines-page-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  .routines-list-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+  }
+}

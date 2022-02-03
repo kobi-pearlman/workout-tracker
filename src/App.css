@@ -1,7 +1,23 @@
 .App {
   text-align: center;
   display: flex;
+  background-color: whitesmoke;
+
+  /* width: 100%; */
 }
 * {
   box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #e6ecf8;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 10px;
 }
